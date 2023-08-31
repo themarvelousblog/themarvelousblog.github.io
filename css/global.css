@@ -1,0 +1,170 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    background: coral;
+    margin: 0px;
+}
+
+/* Header/Blog Title */
+header {
+    padding: 30px;
+    padding-bottom: 0px;
+    font-size: 70px;
+    text-align: left;
+    background: coral;
+}
+
+header img {
+    width: 80%;
+}
+
+header .titleImage {
+    vertical-align: middle;
+    width: 90px;
+    margin-left: 20px;
+}
+
+header .titleText {
+    vertical-align: middle;
+    display: inline;
+    margin-left: 0px;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+header ul {
+    text-align: center;
+    background-color: indianred;
+    list-style-type: none;
+    margin: 20px;
+    padding: 0px;
+    border-radius: 15px;
+
+}
+
+header li {
+    margin: 10px;
+    font-size: 35px;
+    display: inline-block;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+}
+
+header li:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 0px;
+    right: 100%;
+    bottom: 0;
+    background: black;
+    height: 4px;
+    -webkit-transition-property: right;
+    transition-property: right;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+
+header li:hover:before, .header li:focus:before, .header li:active:before {
+    right: 0;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+    float: left;
+    width: 74%;
+    margin-left: 1%;
+}
+
+/* Right column */
+.rightcolumn {
+    float: left;
+    width: 24%;
+    padding-left: 20px;
+    margin-right: 1%;
+}
+
+.rightcolumn #search {
+    width: 70%;
+    background-color: coral;
+    border-radius: 15px;
+    border: none;
+}
+
+.rightcolumn #searchButton {
+    width: 20%;
+    background-color: coral;
+    border-radius: 15px;
+    border: none;
+}
+
+/* Fake image */
+.fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+}
+
+.language {
+    background-color: crimson;
+    padding: 2px;
+    padding-left: 20px;
+    margin: 1%;
+    border-radius: 15px;
+}
+
+/* Add a card effect for articles */
+.card {
+    background-color: crimson;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+.link {
+    display: inline-block;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    color: grey;
+    text-decoration: none;
+}
+.link:hover, .hvr-grow:focus, .hvr-grow:active {
+    -webkit-transform: scale(1.02);
+    transform: scale(1.02);
+}
+
+.link h1 {
+    color: black;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Footer */
+footer {
+    padding: 20px;
+    text-align: center;
+    background: crimson;
+    margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {
+        width: 100%;
+        padding: 0;
+    }
+}

@@ -1,0 +1,37 @@
+<script lang="JavaScript">
+    function searchButton() {
+
+        window.location.href = "/{{ page.lang }}/search?search=" +  document.getElementById("search").value;
+
+    }
+</script>
+<div class="card">
+    <input type="text" id="search" />
+    <button id="searchButton" onclick="searchButton()">
+        {% if page.lang == "it" %}
+            Cerca
+        {% else %}
+            Search
+        {% endif %}
+    </button> 
+</div>
+<div class="card">
+    <p>
+    {% if page.lang == "it" %}
+        Sostieni il sito
+    {% else %}
+        Support the site
+    {% endif %}
+    </p>
+    <a href="https://paypal.me/TheMarvelousBlog"><img src="https://www.paypalobjects.com/webstatic/mktg/Logo/pp-logo-200px.png"/></a>
+</div>
+<div class="card">
+    <p>
+        {% if page.lang == "it" %}
+            Codice sorgente
+        {% else %}
+            Source code
+        {% endif %}
+    </p>
+    <a href="https://github.com/themarvelousblog/themarvelousblog"><img src="/images/github-mark.png" height="75px"/></a>
+</div>

@@ -1,0 +1,66 @@
+---
+layout: base
+---
+<script lang="JavaScript">
+    /**
+     * @param {String} search
+     * @param {String} title  
+     * @param {String} content  
+     */
+    function isFound(search, title, content) {
+        
+        if(title.toLowerCase().includes(search) || content.toLowerCase().includes(search)) {
+
+            return true
+
+        }
+        return false
+
+    }
+    function search() {
+        
+        let search = new URLSearchParams(window.location.search).get("search")
+        let result = ""
+        let notFound
+
+        notFound = `<div class="card">
+            {% if page.lang == "it" %}
+                Nessun risultato trovato
+            {% else %}
+                No result found
+            {% endif %}
+        </div>`
+        if(search == null || search.length == 0) {
+
+            document.write(notFound)
+            return
+
+        }
+        document.getElementById("switch").setAttribute("href", document.getElementById("switch").getAttribute("href") + "?search=" + search)
+        {% for i in site.posts %}
+            if("{{ i.lang }}" == "{{ page.lang }}" && isFound(search.toLowerCase(), "{{ i.title }}", "{{ i.content | strip_html | strip_newlines | escape }}")) {
+                
+                result += `
+                    <a href="{{ i.url }}" class="link">
+                        <div class="card">
+                            <h1>{{ i.title }}</h1>
+                            <p>{{ i.date | date: "%d %m %Y" }}</p>
+                            <p>{{ i.content | strip_html | truncatewords: 50 }}</p>
+                        </div>
+                    </a>
+                `
+
+            }
+        {% endfor %}
+        if(result.length == 0) {
+
+            document.write(notFound)
+            return
+
+        }
+        document.write(result)
+
+    }
+
+    search()
+</script>

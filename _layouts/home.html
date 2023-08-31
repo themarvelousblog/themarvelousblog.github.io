@@ -1,0 +1,14 @@
+---
+layout: base
+---
+{% for i in site.posts %}
+    {% if i.lang == page.lang %}
+        <a href="{{ i.url }}" class="link" >
+            <div class="card">
+                <h1>{{ i.title }}</h1>
+                <p>{{ i.date | date: "%d %m %Y" }}</p>
+                <p>{{ i.content | strip_html | truncatewords: 50 }}</p>
+            </div>
+        </a>
+    {% endif %}
+{% endfor %}

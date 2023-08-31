@@ -1,0 +1,13 @@
+<header>
+    <img src="/images/title.png"/>
+    <ul>
+        <li><a href="/{{ page.lang }}">Home</a></li>
+        {% if page.lang == "it" %}
+            <li><a href="/en">English</a></li>
+            <li><a href="/it/chi-siamo">Chi siamo</a></li>
+        {% else %}
+            <li><a href="/it">Italiano</a></li>
+            <li><a href="/en/about-us">About us</a></li>
+        {% endif %}
+    </ul>
+</header>
