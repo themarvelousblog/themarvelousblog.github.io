@@ -8,7 +8,6 @@ body {
     margin: 0px;
 }
 
-/* Header/Blog Title */
 header {
     padding: 30px;
     padding-bottom: 0px;
@@ -19,18 +18,6 @@ header {
 
 header img {
     width: 80%;
-}
-
-header .titleImage {
-    vertical-align: middle;
-    width: 90px;
-    margin-left: 20px;
-}
-
-header .titleText {
-    vertical-align: middle;
-    display: inline;
-    margin-left: 0px;
 }
 
 header a {
@@ -77,15 +64,12 @@ header li:hover:before, .header li:focus:before, .header li:active:before {
     right: 0;
 }
 
-/* Create two unequal columns that floats next to each other */
-/* Left column */
 .leftcolumn {
     float: left;
     width: 74%;
     margin-left: 1%;
 }
 
-/* Right column */
 .rightcolumn {
     float: left;
     width: 24%;
@@ -93,36 +77,20 @@ header li:hover:before, .header li:focus:before, .header li:active:before {
     margin-right: 1%;
 }
 
-.rightcolumn #search {
+input {
     width: 70%;
     background-color: coral;
     border-radius: 15px;
     border: none;
 }
 
-.rightcolumn #searchButton {
+button {
     width: 20%;
     background-color: coral;
     border-radius: 15px;
     border: none;
 }
 
-/* Fake image */
-.fakeimg {
-    background-color: #aaa;
-    width: 100%;
-    padding: 20px;
-}
-
-.language {
-    background-color: crimson;
-    padding: 2px;
-    padding-left: 20px;
-    margin: 1%;
-    border-radius: 15px;
-}
-
-/* Add a card effect for articles */
 .card {
     background-color: crimson;
     padding: 20px;
@@ -146,14 +114,12 @@ header li:hover:before, .header li:focus:before, .header li:active:before {
     color: black;
 }
 
-/* Clear floats after the columns */
 .row:after {
     content: "";
     display: table;
     clear: both;
 }
 
-/* Footer */
 footer {
     padding: 20px;
     text-align: center;
@@ -161,7 +127,6 @@ footer {
     margin-top: 20px;
 }
 
-/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 800px) {
     .leftcolumn, .rightcolumn {
         width: 100%;

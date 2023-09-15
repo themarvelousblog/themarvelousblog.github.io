@@ -7,6 +7,6 @@ lang-switch: /it/chi-siamo
 
 The blog is available in both Italian and English, thanks to a team of three people. Two members of the team write the posts, while the third member translates the articles from Italian to English in order to publish them in both languages.
 
-The blog was created using [Jekyll](https://jekyllrb.com/) and the source code is available on [Github Pages](https://github.com/themarvelousblog/themarvelousblog.github.io) under the BSD-3 license.
+The blog was created using [Jekyll]({{ site.jekyll_link }}) and the source code is available on [Github Pages]({{ site.github_link }}) under the BSD-3 license.
 
-The site welcomes support through [donations](https://paypal.me/TheMarvelousBlog) for those who appreciate our work.
+The site welcomes support through [donations]({{ site.paypal_link }}) for those who appreciate our work.
