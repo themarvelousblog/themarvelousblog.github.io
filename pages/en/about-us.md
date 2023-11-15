@@ -1,5 +1,6 @@
 ---
 layout: page
+title: About us
 lang-switch: /it/chi-siamo
 ---
 # About us

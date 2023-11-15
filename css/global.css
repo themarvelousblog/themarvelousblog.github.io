@@ -102,7 +102,7 @@ button {
     display: inline-block;
     -webkit-transition-duration: 0.5s;
     transition-duration: 0.5s;
-    color: grey;
+    color: rgb(31, 31, 31);
     text-decoration: none;
 }
 .link:hover, .hvr-grow:focus, .hvr-grow:active {

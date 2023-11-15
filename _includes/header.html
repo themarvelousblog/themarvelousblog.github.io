@@ -1,5 +1,10 @@
 <header>
-    <img src="/images/title.png"/>
+    <img src="/images/title.png"
+    {% if page.lang == "it" %}
+        alt="logo del sito"
+    {% else %}
+        alt="site logo"
+    {% endif %}/>
     <ul>
         <li><a href="/{{ page.lang }}">Home</a></li>
         {% if page.lang == "it" %}

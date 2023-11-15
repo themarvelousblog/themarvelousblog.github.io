@@ -1,4 +1,5 @@
 ---
 layout: search
-lang-switch: /it/search
+title: Search
+lang-switch: /it/cerca
 ---

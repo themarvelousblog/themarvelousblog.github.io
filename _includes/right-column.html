@@ -1,7 +1,13 @@
 <script lang="JavaScript">
     function searchButton() {
 
-        window.location.href = "/{{ page.lang }}/search?search=" +  document.getElementById("search").value;
+        let string = {% if page.lang == "it" %}
+                        "/it/cerca"
+                    {% else %}
+                        "/en/search"
+                    {% endif %}
+
+        window.location.href = string + "?search=" +  document.getElementById("search").value;
 
     }
 </script>
@@ -23,7 +29,7 @@
         Support the site
     {% endif %}
     </p>
-    <a href="{{ site.paypal_link }}"><img src="https://www.paypalobjects.com/webstatic/mktg/Logo/pp-logo-200px.png"/></a>
+    <a href="{{ site.paypal_link }}"><img src="https://www.paypalobjects.com/webstatic/mktg/Logo/pp-logo-200px.png" alt="paypal"/></a>
 </div>
 <div class="card">
     <p>
@@ -33,5 +39,5 @@
             Source code
         {% endif %}
     </p>
-    <a href="{{ site.github_link }}"><img src="/images/github-mark.png" height="75px"/></a>
+    <a href="{{ site.github_link }}"><img src="/images/github-mark.png" height="75px" alt="github"/></a>
 </div>
