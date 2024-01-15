@@ -1,15 +1,45 @@
+<!--<div class="card" id="user"></div>-->
 <script lang="JavaScript">
     function searchButton() {
 
-        let string = {% if page.lang == "it" %}
-                        "/it/cerca"
+        let string = `{% if page.lang == "it" %}
+                        /it/cerca
                     {% else %}
-                        "/en/search"
-                    {% endif %}
+                        /en/search
+                    {% endif %}`
 
         window.location.href = string + "?search=" +  document.getElementById("search").value;
 
     }
+    /*let logout = () => {
+
+        fetch("http://localhost:4000/api/logout", {
+            method: "get",
+            credentials: 'include'
+        }).then(() => {
+            sessionStorage.setItem("user", null)
+            window.location.reload()
+        })
+
+    }
+    fetch("http://localhost:4000/api/user", {
+        method: "get",
+        credentials: 'include'
+    }).then(response => {
+        response.json().then(user => {
+            if(user) {
+                document.getElementById("user").innerHTML = `${user} <button id="logout" onclick="logout()">Logout</logout>`
+            } else {
+                document.getElementById("user").innerHTML = `<a href = 
+                {% if page.lang == "it" %}
+                    "/it/accedi"
+                {% else %}
+                    "/en/login"
+                {% endif %}>
+                Login</a>`
+            }
+        })
+    })*/
 </script>
 <div class="card">
     <input type="text" id="search" />

@@ -2,8 +2,10 @@
 layout: base
 ---
 <div class="card">
-    <form id="login">
+    <form id="register">
         <h2>{{ page.test }}</h2>
+        <p><label for="email">Email:</label><br/>
+        <input type="email" name="email" placeholder="Email"></p>
         <p><label for="username">Username:</label><br/>
         <input type="text" name="username" placeholder="Username"/></p>
         <p><label for="password">Password:</label><br/>
@@ -13,4 +15,4 @@ layout: base
         <input type="submit" value="{{ page.submit }}"/>
     </form>
 </div>
-<script src="/js/login.js"></script>
+<script src="/js/register.js"></script>

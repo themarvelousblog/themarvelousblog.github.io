@@ -6,3 +6,11 @@ layout: base
     <p>{{ page.date | date: "%d %m %Y" }}</p>
     {{ content }}
 </div>
+<div id="comments">
+    <script lang="JavaScript" type="module">
+
+        import post from "/js/post.js"
+
+        post("{{ page.lang }}", "{{ page.title }}")
+    </script>
+</div>

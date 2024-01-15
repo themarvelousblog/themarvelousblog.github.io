@@ -1,8 +1,8 @@
 ---
-layout: login
-title: Login
-lang-switch: /it/accedi
+layout: register
+title: Register
+lang-switch: /it/registrati
 show: Show password
-submit: Login
+submit: Register
 test: This is a test page and is currently not functional
 ---
