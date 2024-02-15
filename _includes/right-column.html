@@ -2,12 +2,13 @@
 <script lang="JavaScript">
     function searchButton() {
 
-        let string = {% if page.lang == "it" %}
-                        "/it/cerca"
-                    {% else %}
-                        "/en/search"
-                    {% endif %}
-
+        let string
+        
+        {% if page.lang == "it" %}
+            string = "/it/cerca"
+        {% else %}
+            string = "/en/search"
+        {% endif %}
         window.location.href = string + "?search=" +  document.getElementById("search").value;
 
     }
