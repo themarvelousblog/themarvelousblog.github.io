@@ -1,0 +1,17 @@
+---
+lang-switch: /it/vedova-nera
+---
+## Origins
+Black Widow first appears as Iron Man's antagonist in issue 52 of "Tales of Suspense".
+What happens in the comics, however, is very different from what is seen in the movies, where Natasha Romanoff, Black Widow's real name, is one of the pioneers of the Avengers, while her paper counterpart is initially depicted as an antagonist of the latter, and only after a long time she decides to join them.<br/>
+The character also changes a lot compared to the comics, where she is depicted as ruthless and violent assassin, whereas in the films she shows more humanity. Furthermore, the Natasha of the comics has been enhanced with super solider-like serums, which give her supernatural abilities while in the MCU her strength derives "only" from very rigorous training.
+## If you can't beat them join them.
+Black Widow's first appearance in the Marvel Cinematic Universe is dated 2010, when in Iron Man 2 she is hired as Tony Stark's secretary. She later turns out to be a S.H.I.E.L.D. agent whose job is to keep tabs on the billionaire's health problems due to the Arc reactor.<br/>
+New information about the woman's past arrives in Avengers, a film in which it is revealed that Natasha was originally a Russian secret agent and she was convinced by Clint Barton, her soon-to-be best friend, to change sides and work for the United States when the latter was sent to Budapest to kill her.
+## Established co-star.
+In the MCU, Black Widow will appear in no less than 10 movies, but only one of those will be dedicated to her, while in the others she will mostly play a co-star or sidekick role, as happens in the film Captain America and Winter Soldier, in which she will help defeat the infiltration of the H.Y.D.R.A. (a terrorist organization with the aim of conquering the world and subvert the national order). In 2021, however, finally arrives, after much anticipation, the film entirely dedicated to Black Widow, in which her entire past resurfaces, from her abduction to the training in the Red Room, from which she managed to escape.
+## Lethal web
+As mentioned before, unlike many other superheroes, Romanoff does not possess supernatural powers, but has been trained as a lethal living weapon: from an early age she mastered numerous combat arts such as judo, karate, kung fu, etc., and is also adept in military tactics to the point of being among the best spies in the Marvel Universe hired first by the K.G.B. and then by S.H.I.E.L.D.<br/>
+Her equipment is distinguished by the iconic black suit with a red hourglass in its center, colors taken from the black widow spider. Her main weapons appears to be two medium-length electrified sticks, but she is also able to master and, if necessary, weaponize common everyday objects.
+## A fake family
+Natasha did not have a real family, but in the MCU, where she is played by Scarlett Johansson, she did have an adoptive family, consisting of Yelena Belova (younger sister also a Black Widow), Melina Vostokoff (fake Mother) and the Red Guardian (fake Father). The family, however, was nothing mora than the cover for a mission to the United States. As mentioned, however, this only happens in the cinema: in the comics, for example, the Red Guardian becomes the Natasha's husband.

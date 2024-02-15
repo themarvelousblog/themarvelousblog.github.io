@@ -1,0 +1,17 @@
+---
+lang-switch: /en/black-widow
+---
+## Origini
+Vedova Nera compare per la prima volta come antagonista di Iron Man nel numero 52 di "Tales of Suspense". Quel che però accade nei fumetti è molto diverso da quello che si vede nei film, dove Natasha Romanoff, vero nome di Vedova Nera, è una dei pionieri degli Avengers, mentre la sua versione cartacea inizialmente viene rappresentata come avversaria e antagonista di quest’ultimi e solo dopo molto tempo si unirà ai Vendicatori.<br/>
+Anche il carattere cambia molto rispetto ai fumetti, dove viene rappresentata come una spietata e violenta assassina, mentre nei film dimostra più umanità. Inoltre, la Natasha dei fumetti è stata potenziata con dei sieri, simili a quello del super soldato, che le conferiscono abilità soprannaturali, mentre nell'MCU il personaggio riceve "solo" un rigorosissimo addestramento.
+## Se non puoi batterli unisciti a loro
+La prima apparizione di Vedova Nera nell'Universo Cinematografico Marvel è datata 2010, quando in Iron Man 2 viene assunta come segretaria di Tony Stark. In seguito si scoprirà essere un'agente dello S.H.I.E.L.D. il cui compito è tenere sotto controllo i problemi di salute del miliardario dovuti al reattore Arc.<br/>
+Nuove informazioni sul passato della donna arrivano in Avengers, film nel quale si scopre che Natasha era un agente segreto russo e che fu convinta da Clint Barton, che diventerà il suo migliore amico, a cambiare fazione e lavorare per gli Stati Uniti quando quest'ultimo venne mandato a Budapest per ucciderla.
+## Coprotagonista affermata
+Nell'MCU vedova nera comparirà in ben 10 film ma solo in 1 di questi sarà interamente a lei dedicato, mentre negli altri svolgerà per lo più un ruolo di co-protagonista o spalla, come accade nel film Capitan America and Winter Soldier, in cui sarà di aiuto a sconfiggere l’infiltrazione dell'H.Y.D.R.A. (organizzazione terroristica con l'obiettivo di conquistare il mondo e sovvertire l’ordine nazionale). Nel 2021, però, arriva finalmente, dopo molte attese, il film interamente dedicato a Black Widow, in cui riemerge tutto il suo passato, fin dal rapimento agli addestramenti nella stanza Rossa, da cui lei è riuscita a fuggire.
+## Ragnatela letale
+Come detto prima, a differenza di molti altri supereroi, la Romanoff non ha poteri soprannaturali, ma è stata addestrata come una letale arma vivente: fin da piccola padroneggia numerose arti da combattimento quali judo, karatè, kung fu, ecc, ed è inoltre esperta in tattiche militari tanto da essere tra le migliori spie dell'universo Marvel ingaggiata prima dal K.G.B e. poi dallo 
+S.H.I.E.L.D.<br/>
+Il suo equipaggiamento è contraddistinto dall'iconica tuta nera con al centro una clessidra rossa, colori ripresi proprio dal ragno vedova nera. Le sue armi principali pare siano due bastoni di media lunghezza elettrificati, ma è in grado di padroneggiare e, in caso di necessità, trasformare in armi anche oggetti comuni.
+## Una finta famiglia
+Natasha non ha avuto una vera e propria famiglia, ma nell'MCU, dove è interpretata da Scarlett Johansson, ha avuto una famiglia adottiva, formata da Yelena Belova (sorella minore), anche lei una Vedova Nera, Melina Vostokoff (finta Madre) e il Guardiano Rosso (finto Padre). La famiglia, in realtà, era solo una copertura per una missione negli Stati Uniti. Come detto, però, ciò accade solo al cinema: nei fumetti, per esempio, il Guardiano Rosso diventerà il marito di Natasha.

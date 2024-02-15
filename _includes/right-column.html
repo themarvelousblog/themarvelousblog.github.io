@@ -11,13 +11,12 @@
         window.location.href = string + "?search=" +  document.getElementById("search").value;
 
     }
-    /*let logout = () => {
+    let logout = () => {
 
         fetch("http://localhost:4000/api/logout", {
             method: "get",
             credentials: 'include'
         }).then(() => {
-            sessionStorage.setItem("user", null)
             window.location.reload()
         })
 
@@ -39,7 +38,7 @@
                 Login</a>`
             }
         })
-    })*/
+    })
 </script>
 <div class="card">
     <input type="text" id="search" />

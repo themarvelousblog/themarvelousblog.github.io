@@ -29,6 +29,5 @@ document.getElementById("register").addEventListener("submit", event => {
             window.location.reload()
         })
     })
-    console.log(data)
 
 })

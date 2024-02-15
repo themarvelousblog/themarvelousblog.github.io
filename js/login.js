@@ -21,8 +21,8 @@ document.getElementById("login").addEventListener("submit", event => {
         credentials: "include",
         body: data
     }).then(response => {
-        response.json().then(body => {
-            sessionStorage.setItem("user", data.username)
+        response.json().then(user => {
+            sessionStorage.setItem("user", user)
             window.location.reload()
         })
     })

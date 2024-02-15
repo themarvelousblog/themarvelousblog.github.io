@@ -9,8 +9,11 @@ layout: base
 <div id="comments">
     <script lang="JavaScript" type="module">
 
-        import post from "/js/post.js"
-
-        post("{{ page.lang }}", "{{ page.title }}")
+        /*import post from "/js/post.js"
+        {% if page.lang == "it" %}
+            post("Italian", "{{ page.title }}")
+        {% else %}
+            post("English", "{{ page.title }}")
+        {% endif %}*/
     </script>
 </div>
