@@ -1,15 +1,12 @@
 <!--<div class="card" id="user"></div>-->
 <script lang="JavaScript">
     function searchButton() {
-
-        let string
         
         {% if page.lang == "it" %}
-            string = "/it/cerca"
+            window.location.href = "/it/cerca" + "?search=" +  document.getElementById("search").value
         {% else %}
-            string = "/en/search"
+            window.location.href = "/en/search" + "?search=" +  document.getElementById("search").value
         {% endif %}
-        window.location.href = string + "?search=" +  document.getElementById("search").value;
 
     }
     let logout = () => {
